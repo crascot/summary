@@ -1,0 +1,16 @@
+.skills {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.title {
+    font-size: 55px !important;
+    color: #fff;
+    background-color: #182223;
+    width: max-content;
+    border-radius: 10px;
+    padding: 0 5px;
+    margin-bottom: 30px !important;
+}

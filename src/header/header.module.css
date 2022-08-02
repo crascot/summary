@@ -1,0 +1,75 @@
+.header {
+    background-color: #182223;
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.mainGrid {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainGrid h1 {
+    font-size: 3em;
+    margin-top: 0;
+}
+
+.mainGrid .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+.info span {
+    margin-right: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.icon {
+    margin-bottom: 2px;
+    margin-right: 5px;
+}
+
+.mainGrid .contacts {
+    max-width: 356px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts h3 {
+    font-weight: 100 !important;
+}
+
+.mainGrid a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.mainGrid img {
+    border-radius: 50%;
+    width: 11em;
+}
+
+@media (max-width: 899px) {
+    .gridAvatar {
+        display: none !important;
+    }
+}
+@media (max-width: 505px) {
+    .containerInfo, .info, .contacts {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .info span {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+}
