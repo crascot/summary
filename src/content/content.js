@@ -54,5 +54,11 @@ export const content = {
             ]
         },
     ],
-    works: []
+    works: [
+        // {
+        //     name: 'KurutIT',
+        //     time: '3.3.2023 - 3.3.2023',
+        //     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae inventore fugiat ipsum blanditiis repudiandae? Accusantium impedit similique consequuntur soluta labore, incidunt quasi? Ab natus distinctio possimus cumque doloremque nesciunt adipisci!'
+        // }
+    ]
 }
