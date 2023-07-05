@@ -7,7 +7,7 @@ import s from './skills.module.css';
 const Skills = () => {
     const skills = content.skills.map((el, i) => (
         <div key={i}>
-            <Typography variant="h5" fontWeight={700}>
+            <Typography className={s.name} variant="h5" fontWeight={700}>
                 {el.name}
             </Typography>
             <Typography variant="subtitle1" fontWeight={600}>

@@ -5,29 +5,28 @@ import s from './works.module.css';
 
 
 const Works = () => {
-    const skills = content.works.map((el, i) => (
-        <div key={i}>
-            <Typography variant="h5" fontWeight={700}>
-                {el.name}
-            </Typography>
-            <Typography variant="subtitle1" fontWeight={600}>
-                {el.title}
-            </Typography>
-            <Typography variant="subtitle1">
-                {el.time}
-            </Typography>
-            <Typography variant="body1" className={s.text}>
-                {el.text}
-            </Typography>
-        </div>
-    ))
-
     return (
         <div className={s.works}>
             <Typography variant="h3" className={s.title}>
                 Опыт работы
             </Typography>
-            {skills}
+            {
+                content.works.map((work, i) => (
+                    <div key={i}>
+                        <div className={s.header}>
+                            <Typography variant="h5" fontWeight={700}>
+                                {work.name}
+                            </Typography>
+                            <Typography variant="subtitle1">
+                                {work.time}
+                            </Typography>
+                        </div>
+                        <Typography variant="body1" className={s.text}>
+                            {work.text}
+                        </Typography>
+                    </div>
+                ))
+            }
         </div>
     )
 }

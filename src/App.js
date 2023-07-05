@@ -11,8 +11,8 @@ function App() {
       <Paper elevation={3}>
         <Header />
         <Skills />
-        {/* <hr />
-        <Works /> */}
+        <hr />
+        <Works />
       </Paper>
     </Container>
   );
