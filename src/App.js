@@ -3,18 +3,22 @@ import Header from './header/header';
 import Skills from './skills/skills';
 import './App.css';
 import Works from './works/works';
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
 
 
 function App() {
   return (
-    <Container fixed>
-      <Paper elevation={3}>
-        <Header />
-        <Skills />
-        <hr />
-        <Works />
-      </Paper>
-    </Container>
+    <I18nextProvider i18n={i18n}>
+      <Container fixed>
+        <Paper elevation={3}>
+          <Header />
+          <Skills />
+          <hr />
+          <Works />
+        </Paper>
+      </Container>
+    </I18nextProvider>
   );
 }
 

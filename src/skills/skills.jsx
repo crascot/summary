@@ -1,11 +1,14 @@
 import React from "react";
 import { Typography } from "@mui/material";
-import { content } from '../content/content';
 import s from './skills.module.css';
+import { useTranslation } from "react-i18next";
+
 
 
 const Skills = () => {
-    const skills = content.skills.map((el, i) => (
+    const { t } = useTranslation()
+
+    const skills = t('skills', { returnObjects: true }).map((el, i) => (
         <div key={i}>
             <Typography className={s.name} variant="h5" fontWeight={700}>
                 {el.name}
@@ -22,7 +25,7 @@ const Skills = () => {
     return (
         <div className={s.skills}>
             <Typography variant="h2" className={s.title}>
-                Навыки
+                {t('titleSkills')}
             </Typography>
             {skills}
         </div>

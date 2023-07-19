@@ -1,0 +1,82 @@
+{
+    "name": "Sitdikov Yaroslav",
+    "university": "KSTU Razzakov",
+    "titleSkills": "Skills",
+    "skills": [
+        {
+            "id": 0,
+            "name": "HTML / CSS",
+            "title": "I know the semantics of tags and how to use it, when writing HTML code I think about how I will layout it later and come up with adequate class names:",
+            "list": [
+                "Tag semantics",
+                "Forms and validation",
+                "Link and navigation",
+                "Appropriate class names"
+            ]
+        },
+        {
+            "id": 1,
+            "title": "I can easily create an adapted website layout using modern tools for working with CSS. Ability to use CSS to create different layouts and position elements on the page using methods such as box model, flexbox and grid. Knowledge of the principles and techniques of creating responsive design using media queries",
+            "list": [
+                "Bootstrap",
+                "Scss preprocessor",
+                "Flexbox",
+                "BEM methodology",
+                "Getting styles from Figma"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "JavaScript",
+            "title": "Understanding core JavaScript concepts such as variables, functions, objects, arrays, conditional statements, and loops. Sending asynchronous requests to the server and processing the received data without the need to reload the page. Using promises, asynchronous functions, and the async/await keywords to manage asynchronous operations and handle results.",
+            "list": [
+                "Basics",
+                "Working with DOM elements",
+                "Ajax, Fetch, Axios",
+                "Asynchronous programming",
+                "Frameworks and Libraries",
+                "ES6"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "React",
+            "title": "Deep understanding of React.js fundamentals, including working with components, virtual DOM, component life cycles, context, and hooks. Ability to use React effectively to develop scalable and modular user interfaces. Working with JSX to generate declarative user interface code. Knowledge of various state management approaches such as using useState and Redux. Working with routing libraries, React Router, to control navigation in the application.",
+            "list": [
+                "State and lifecycle methods",
+                "Using Hooks",
+                "Components and props",
+                "CSS Modules",
+                "Library usage: Material UI, Bootstrap, React Router",
+                "Redux Toolkit"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Git / GitHub",
+            "list": [
+                "Clone a repository or create a new one",
+                "Working with branches",
+                "Conflict resolution"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Docker",
+            "list": [
+                "Containerization. Knowledge of basic concepts and principles of containerization, including application isolation, dependency packaging, and running in different environments.",
+                "Imaging: Experience creating Docker images using a Dockerfile.",
+                "Ability to create and configure multi-container applications using Docker Compose."
+            ]
+        }
+    ],
+
+    "titleWorks": "Experience",
+    "works": [
+        {
+            "name": "Kurut-IT",
+            "time": "March 2023 - July 2023",
+            "text": "Developed a user interface for a web application using the React / React Vite library. Also developed web prototypes for mobile applications. Adding responsive design and responsiveness to provide a seamless browsing experience on a variety of devices. Used various style frameworks for efficiency and style support. Implemented REST API for data exchange between users and the server"
+        }
+    ]
+}

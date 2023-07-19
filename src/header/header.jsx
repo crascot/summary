@@ -5,9 +5,11 @@ import avatar from './me.jpg';
 import CakeIcon from '@mui/icons-material/Cake';
 import SchoolIcon from '@mui/icons-material/School';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import { useTranslation } from "react-i18next";
 
 
 const Header = () => {
+    const {t} = useTranslation()
     const [size, setSize] = useState(9)
 
     useEffect(() => window.innerWidth <= 899 ? setSize(12) : setSize(9), [])
@@ -22,9 +24,9 @@ const Header = () => {
                 className={s.mainGrid}
             >
                 <Grid className={s.containerInfo} item xs={size}>
-                    <h1>Ситдиков Ярослав</h1>
+                    <h1>{t('name')}</h1>
                     <div className={s.info}>
-                        <span><SchoolIcon className={s.icon} /> КГТУ им. Раззакова</span>
+                        <span><SchoolIcon className={s.icon} />{t('university')}</span>
                         <span><CakeIcon className={s.icon} /> 15.01.2003</span>
                     </div>
                     <div className={s.contacts}>
