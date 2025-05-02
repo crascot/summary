@@ -6,7 +6,7 @@ import { ContentType } from "../../../../types/contentType";
 export const Experience = () => {
  const { t } = useTranslation();
 
- const experienceJson = t("content.skills", {
+ const experienceJson = t("content.experience", {
   returnObjects: true,
  }) as ContentType;
 
