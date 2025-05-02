@@ -1,0 +1,80 @@
+@import url("../../styles/pallete.less");
+@import url("../../styles/font-size.less");
+
+.header {
+ background-color: @pallete-black;
+ padding: 40px;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+
+ * {
+  color: @pallete-background !important;
+ }
+
+ &-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (width<=629px) {
+   justify-content: center;
+  }
+
+  &-info {
+   display: flex;
+   flex-direction: column;
+   gap: 18px;
+
+   @media (width<=629px) {
+    text-align: center;
+   }
+
+   &-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    span {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+
+     svg {
+      width: 24px !important;
+      height: 24px !important;
+
+      path {
+       width: inherit !important;
+      }
+     }
+    }
+   }
+  }
+
+  &-image {
+   width: 176px;
+   height: 176px;
+   border-radius: 50%;
+
+   @media (width<=629px) {
+    display: none;
+   }
+  }
+ }
+
+ &-about-me {
+  border-radius: 12px 12px 3px 3px;
+  margin: 0 -30px -30px;
+  padding: 10px;
+  background-color: @pallete-background;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  * {
+   color: @pallete-black !important;
+  }
+ }
+}

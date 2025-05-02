@@ -1,0 +1,157 @@
+{
+ "head": {
+  "title": "Sitdikov Yaroslav Front-End Developer",
+  "description": "Professional developer with experience in web development and application creation. Experience with React, TypeScript, Next.js and MobX. I have skills in developing adaptive interfaces, working with server APIs and managing application state."
+ },
+ "name": "Sitdikov Yaroslav",
+ "university": "KSTU named after Razzakov",
+ "aboutMe": {
+  "title": "About Me",
+  "text": "I’m a developer who genuinely enjoys coding. I love finding simple solutions to complex problems and constantly learning new things—whether it’s a new framework, architectural approach, or life skill. My positive mindset and proactivity help me not only at work but also in life."
+ },
+ "buttons": {
+  "skills": "Skills",
+  "experience": "Work Experience"
+ },
+ "content": {
+  "skills": {
+   "title": "Skills",
+   "info": [
+    {
+     "title": "HTML / CSS",
+     "text": "Confidently work with HTML and CSS, using semantic markup and modern styling approaches. Create responsive interfaces focused on cross-browser compatibility and performance.",
+     "list": [
+      "Tag semantics",
+      "Forms and validation",
+      "Class naming conventions",
+      "Layouts and responsiveness",
+      "CSS tools and methodologies"
+     ]
+    },
+    {
+     "title": "JavaScript",
+     "text": "Strong knowledge of JavaScript ES6+ for building interactive web applications. Apply modern techniques for working with the DOM, events, and asynchronous operations.",
+     "list": [
+      "Language fundamentals",
+      "Working with DOM",
+      "Working with APIs",
+      "Asynchronous programming",
+      "Frameworks and libraries",
+      "ES6+"
+     ]
+    },
+    {
+     "title": "TypeScript",
+     "text": "Use TypeScript to build reliable, scalable applications with explicit typing. Ensure type safety at compile time, minimizing runtime errors.",
+     "list": [
+      "Typing and code structure",
+      "Functions and classes",
+      "Working with external libraries",
+      "OOP and SOLID principles",
+      "Integration with React and Node.js",
+      "Build tools and type checking"
+     ]
+    },
+    {
+     "title": "React",
+     "text": "Experience in developing web applications using React, including components, hooks, routing, and state management. Build modular and scalable UIs with high performance.",
+     "list": [
+      "Hooks",
+      "Lifecycle and side effects",
+      "State management",
+      "Routing",
+      "Component styling",
+      "Performance optimization",
+      "Forms and validation",
+      "API integration"
+     ]
+    },
+    {
+     "title": "NestJS",
+     "text": "Develop robust server-side applications with NestJS using modular architecture, ORM, and secure authentication. Use TypeScript, adhering to SOLID principles and Dependency Injection.",
+     "list": [
+      "REST API",
+      "Authentication and authorization",
+      "Database integration",
+      "Configuration and environment variables",
+      "Middleware and interceptors",
+      "Validation and error handling",
+      "API documentation and testing",
+      "Frontend integration"
+     ]
+    },
+    {
+     "title": "Git / GitHub",
+     "text": "Confident in using Git for both team and individual development. Apply version control to maintain clean commit history, branch management, and conflict resolution.",
+     "list": [
+      "Creating and cloning repositories, setting up .gitignore, README",
+      "Branch management: feature/bugfix branches, rebase, squash, merge",
+      "Resolving merge and pull request conflicts",
+      "Meaningful commits, pre-commit lint hooks"
+     ]
+    },
+    {
+     "title": "Docker",
+     "text": "Use Docker for app containerization and environment setup. Package applications into independent images for simplified deployment and development.",
+     "list": [
+      "Containerization basics and key concepts",
+      "Experience creating Docker images using Dockerfile",
+      "Setting up docker-compose for multi-container applications"
+     ]
+    },
+    {
+     "title": "Soft Skills",
+     "text": "",
+     "list": [
+      "Teamwork",
+      "Self-motivation",
+      "Continuous learning",
+      "Communication",
+      "Responsibility"
+     ]
+    }
+   ]
+  },
+  "experience": {
+   "title": "Work Experience",
+   "info": [
+    {
+     "title": "Kurut-IT",
+     "time": "September 2022 – July 2023",
+     "list": [
+      "Developed SPA applications using React + Vite",
+      "Created responsive layouts based on Figma designs",
+      "Used SCSS, BEM methodology, and UI libraries (Bootstrap, MUI)",
+      "Integrated REST APIs, handled state and errors",
+      "Ensured cross-browser compatibility and responsiveness",
+      "Participated in feature planning and UX discussions"
+     ],
+     "achievements": [
+      "Significantly improved practical React skills (hooks, components, structure)",
+      "Enhanced communication and teamwork (planning, Git practices)",
+      "Deepened understanding of REST API and client-server interaction",
+      "Greatly improved speed and quality of responsive layout development"
+     ]
+    },
+    {
+     "title": "Almurut Store",
+     "time": "November 2023 – April 2025",
+     "list": [
+      "Designed the interface of an e-commerce store using React + TypeScript",
+      "Used MobX, Ant Design, and SSR with Next.js",
+      "Developed forms, filters, product cards, and pages"
+     ],
+     "achievements": [
+      "Mastered Docker and docker-compose for environment setup",
+      "Improved TypeScript knowledge (typing complex structures, components)",
+      "Enhanced SEO and SSR skills with Next.js",
+      "Became more self-reliant",
+      "Strengthened architectural thinking and code structuring"
+     ]
+    }
+   ]
+  }
+ },
+ "responsibilities": "Responsibilities",
+ "achievements": "Achievements"
+}

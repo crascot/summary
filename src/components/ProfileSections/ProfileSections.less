@@ -1,0 +1,64 @@
+@import url("../../styles/pallete.less");
+@import url("../../styles/font-size.less");
+
+.profile-sections {
+ &-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &-button {
+   appearance: none;
+   background-color: transparent;
+   border: 2px solid @pallete-black;
+   box-sizing: border-box;
+   color: @pallete-gray-2;
+   cursor: pointer;
+   display: inline-block;
+   font-size: @h5;
+   font-weight: 600;
+   line-height: normal;
+   margin: 0;
+   min-height: 60px;
+   min-width: 0;
+   outline: none;
+   padding: 16px 24px;
+   text-align: center;
+   text-decoration: none;
+   transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   width: 100%;
+   will-change: transform;
+
+   &:not(&:first-child) {
+    border-left: none;
+   }
+
+   &:disabled {
+    pointer-events: none;
+   }
+
+   &:hover {
+    color: @pallete-background;
+    background-color: @pallete-black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+   }
+
+   &:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+
+   &-active {
+    color: @pallete-background;
+    background-color: @pallete-black;
+   }
+  }
+ }
+
+ &-content {
+  padding: 30px;
+ }
+}

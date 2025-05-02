@@ -1,0 +1,58 @@
+@import url("../../../styles/pallete.less");
+@import url("../../../styles/font-size.less");
+
+.section {
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
+ position: relative;
+
+ &-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &-block {
+   padding-left: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+
+   h4 {
+    padding-bottom: 2px;
+    border-bottom: 2px solid @pallete-black;
+    width: max-content;
+   }
+
+   &-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    &-list {
+     h5 {
+      margin-bottom: 12px;
+     }
+    }
+   }
+
+   &-time {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    margin-left: 0 !important;
+   }
+
+   p,
+   ul {
+    margin-left: 10px;
+   }
+
+   ul {
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+   }
+  }
+ }
+}
