@@ -16,6 +16,9 @@ module.exports = {
   hot: true,
   historyApiFallback: true,
   open: true,
+  open: {
+   target: "/summary/",
+  },
   port: 8080,
  },
  module: {

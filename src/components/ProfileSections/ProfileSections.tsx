@@ -9,29 +9,18 @@ enum Section {
  Skills = "skills",
  // eslint-disable-next-line no-unused-vars
  Experience = "experience",
- //  PetProjects = "petProjects",
 }
 
 export const ProfileSections = () => {
  const { t } = useTranslation();
  const [activeSection, setActiveSection] = useState<Section>(Section.Skills);
+ const [printMod] = useState<boolean>(false);
 
- const renderSection = () => {
-  switch (activeSection) {
-   case Section.Skills:
-    return <Skills />;
-   case Section.Experience:
-    return <Experience />;
-   //  case Section.PetProjects:
-   // return <PetProjects />;
-   // return <div>PetProjects</div>;
-   default:
-    return null;
+ const renderNavigation = () => {
+  if (printMod) {
+   return null;
   }
- };
-
- return (
-  <div className="profile-sections">
+  return (
    <div className="profile-sections-navigation">
     <button
      className={`${activeSection === Section.Skills ? "profile-sections-navigation-button-active" : ""} profile-sections-navigation-button`}
@@ -45,14 +34,48 @@ export const ProfileSections = () => {
     >
      {t("buttons.experience")}
     </button>
-    {/* <button
-     className={`${activeSection === Section.PetProjects ? "profile-sections-navigation-button-active" : ""} profile-sections-navigation-button`}
-     onClick={() => setActiveSection(Section.PetProjects)}
-    >
-     Проекты
-    </button> */}
    </div>
-   <div className="profile-sections-content">{renderSection()}</div>
+  );
+ };
+
+ const renderContent = () => {
+  if (printMod) {
+   return renderAll();
+  } else {
+   return renderSection();
+  }
+ };
+
+ const renderSection = () => {
+  switch (activeSection) {
+   case Section.Skills:
+    return <Skills />;
+   case Section.Experience:
+    return <Experience />;
+   default:
+    return null;
+  }
+ };
+
+ const renderAll = () => {
+  return (
+   <div className="profile-sections-content-list">
+    <div className="profile-sections-content-list-item">
+     <h1>{t("content.skills.title")}</h1>
+     <Skills />
+    </div>
+    <div className="profile-sections-content-list-item">
+     <h1>{t("content.experience.title")}</h1>
+     <Experience />
+    </div>
+   </div>
+  );
+ };
+
+ return (
+  <div className="profile-sections">
+   {renderNavigation()}
+   <div className="profile-sections-content">{renderContent()}</div>
   </div>
  );
 };

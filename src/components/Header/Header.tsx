@@ -5,11 +5,14 @@ import PhoneIcon from "../../icons/phone.svg";
 import SchoolIcon from "../../icons/school.svg";
 import GitHubIcon from "../../icons/github.svg";
 import TelegramIcon from "../../icons/telegram.svg";
+import DownloadIcon from "../../icons/download.svg";
 import { Link } from "../Link";
 import { useTranslation } from "react-i18next";
+import { useParams } from "react-router-dom";
 
 export const Header = () => {
  const { t } = useTranslation();
+ const { lang } = useParams();
 
  return (
   <div className="header">
@@ -33,6 +36,10 @@ export const Header = () => {
       </span>
       <span>
        <GitHubIcon /> <Link href="https://github.com/crascot" text="GitHub" />
+      </span>
+      <span>
+       <DownloadIcon />{" "}
+       <Link href={`/summary/files/summary-${lang}.pdf`} text="Pdf" />
       </span>
      </div>
     </div>
