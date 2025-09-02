@@ -9,6 +9,14 @@ import DownloadIcon from "../../icons/download.svg";
 import { Link } from "../Link";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
+import {
+ EMAIL_LINK,
+ GITHUB_LINK,
+ PDF_LINK,
+ PHONE_LINK,
+ TELEGRAM_LINK,
+ UNIVERSITY_LINK,
+} from "./consts";
 
 export const Header = () => {
  const { t } = useTranslation();
@@ -21,25 +29,24 @@ export const Header = () => {
      <h1>{t("name")}</h1>
      <div className="header-block-info-links">
       <span>
-       <SchoolIcon /> {t("university")}
-      </span>
-      <span>
        <CakeIcon /> 15.01.2003
       </span>
       <span>
-       <TelegramIcon /> <Link href="https://t.me/crascot" text="Telegram" />
-       <PhoneIcon /> <Link href="tel:+996558599499" text="+996558599499" />
+       <SchoolIcon />
+       <Link href={UNIVERSITY_LINK} text={t("university")} />
       </span>
       <span>
-       <MailIcon />{" "}
-       <Link href="mailto:yarsitdikov@gmail.com" text="yarsitdikov@gmail.com" />
+       <TelegramIcon /> <Link href={TELEGRAM_LINK} text="Telegram" />
+       <PhoneIcon /> <Link href={PHONE_LINK} text="+996558599499" />
       </span>
       <span>
-       <GitHubIcon /> <Link href="https://github.com/crascot" text="GitHub" />
+       <MailIcon /> <Link href={EMAIL_LINK} text="yarsitdikov@gmail.com" />
       </span>
       <span>
-       <DownloadIcon />{" "}
-       <Link href={`/summary/files/summary-${lang}.pdf`} text="Pdf" />
+       <GitHubIcon /> <Link href={GITHUB_LINK} text="GitHub" />
+      </span>
+      <span>
+       <DownloadIcon /> <Link href={PDF_LINK(lang)} text="Pdf" />
       </span>
      </div>
     </div>
