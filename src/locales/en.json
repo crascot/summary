@@ -5,6 +5,10 @@
  },
  "name": "Sitdikov Yaroslav",
  "university": "KSTU named after Razzakov",
+ "languages": {
+  "title": "Languages",
+  "compact": ["Russian — native", "English — basic (technical docs)"]
+ },
  "aboutMe": {
   "title": "About Me",
   "text": "I’m a developer who genuinely enjoys coding. I love finding simple solutions to complex problems and constantly learning new things—whether it’s a new framework, architectural approach, or life skill. My positive mindset and proactivity help me not only at work but also in life."

@@ -18,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
 
-  @media (width<=629px) {
+  @media (width<=636px) {
    justify-content: center;
   }
 
@@ -27,7 +27,7 @@
    flex-direction: column;
    gap: 18px;
 
-   @media (width<=629px) {
+   @media (width<=636px) {
     text-align: center;
    }
 
@@ -50,6 +50,26 @@
       }
      }
     }
+
+    &-languages {
+     display: flex !important;
+     align-items: start !important;
+
+     ul {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      list-style-type: none;
+
+      li {
+       text-align: left;
+      }
+     }
+
+     @media print {
+      display: none !important;
+     }
+    }
    }
   }
 
@@ -58,7 +78,7 @@
    height: 176px;
    border-radius: 50%;
 
-   @media (width<=629px) {
+   @media (width<=636px) {
     display: none;
    }
   }

@@ -1,11 +1,11 @@
 import "./Header.less";
-import CakeIcon from "../../icons/cake.svg";
 import MailIcon from "../../icons/mail.svg";
 import PhoneIcon from "../../icons/phone.svg";
 import SchoolIcon from "../../icons/school.svg";
 import GitHubIcon from "../../icons/github.svg";
 import TelegramIcon from "../../icons/telegram.svg";
 import DownloadIcon from "../../icons/download.svg";
+import GlobeIcon from "../../icons/globe.svg";
 import { Link } from "../Link";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
@@ -29,9 +29,6 @@ export const Header = () => {
      <h1>{t("name")}</h1>
      <div className="header-block-info-links">
       <span>
-       <CakeIcon /> 15.01.2003
-      </span>
-      <span>
        <SchoolIcon />
        <Link href={UNIVERSITY_LINK} text={t("university")} />
       </span>
@@ -47,6 +44,16 @@ export const Header = () => {
       </span>
       <span>
        <DownloadIcon /> <Link href={PDF_LINK(lang)} text="Pdf" />
+      </span>
+      <span className="header-block-info-links-languages">
+       <GlobeIcon />{" "}
+       <ul>
+        {(t("languages.compact", { returnObjects: true }) as string[]).map(
+         (lan: string, i: number) => (
+          <li key={i}>{lan}</li>
+         ),
+        )}
+       </ul>
       </span>
      </div>
     </div>
