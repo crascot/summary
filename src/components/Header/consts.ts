@@ -1,5 +1,6 @@
-export const UNIVERSITY_LINK =
+export const DIPLOMA_LINK =
  "https://diplom.edu.gov.kg/diploma/ajZXckw2Q0dnMDBQQmcvUkkzTldDVXhsanhrRmpjVlIrcXNHbmxaRU00ST0=";
+//  "/summary/files/Sample | Diploma.pdf";
 
 export const TELEGRAM_LINK = "https://t.me/crascot";
 

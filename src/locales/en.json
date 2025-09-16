@@ -71,17 +71,28 @@
      ]
     },
     {
+     "title": "Node.js",
+     "text": "Confident use of Node.js for creating server applications and REST API. Working with modules, asynchrony (event loop, promises, async/await) and setting up environments. I use Node.js as a basis for NestJS and Express applications, integrating databases and external APIs.",
+     "list": [
+      "Asyncrony and event loop",
+      "REST API",
+      "Working with databases",
+      "Configuring environments",
+      "Integration with Docker"
+     ]
+    },
+    {
      "title": "NestJS",
-     "text": "Develop robust server-side applications with NestJS using modular architecture, ORM, and secure authentication. Use TypeScript, adhering to SOLID principles and Dependency Injection.",
+     "text": "I develop reliable server applications on NestJS using modular architecture, ORM and secure authorization. I use TypeScript, following the principles of SOLID and DI.",
      "list": [
       "REST API",
-      "Authentication and authorization",
-      "Database integration",
+      "Authentication and authorization, working with tokens",
+      "Working with databases",
       "Configuration and environment variables",
-      "Middleware and interceptors",
+      "Middleware and Interceptors",
       "Validation and error handling",
-      "API documentation and testing",
-      "Frontend integration"
+      "Documentation and API testing",
+      "Integration with the frontend"
      ]
     },
     {
@@ -120,22 +131,10 @@
    "title": "Work Experience",
    "info": [
     {
-     "title": "Kurut-IT",
-     "time": "September 2022 – July 2023",
-     "list": [
-      "Developed SPA applications using React + Vite",
-      "Created responsive layouts based on Figma designs",
-      "Used SCSS, BEM methodology, and UI libraries (Bootstrap, MUI)",
-      "Integrated REST APIs, handled state and errors",
-      "Ensured cross-browser compatibility and responsiveness",
-      "Participated in feature planning and UX discussions"
-     ],
-     "achievements": [
-      "Significantly improved practical React skills (hooks, components, structure)",
-      "Enhanced communication and teamwork (planning, Git practices)",
-      "Deepened understanding of REST API and client-server interaction",
-      "Greatly improved speed and quality of responsive layout development"
-     ]
+     "title": "June Homes",
+     "time": "Present",
+     "list": [],
+     "achievements": []
     },
     {
      "title": "Almurut Store",
@@ -151,6 +150,24 @@
       "Enhanced SEO and SSR skills with Next.js",
       "Became more self-reliant",
       "Strengthened architectural thinking and code structuring"
+     ]
+    },
+    {
+     "title": "Kurut-IT",
+     "time": "September 2022 – July 2023",
+     "list": [
+      "Developed SPA applications using React + Vite",
+      "Created responsive layouts based on Figma designs",
+      "Used SCSS, BEM methodology, and UI libraries (Bootstrap, MUI)",
+      "Integrated REST APIs, handled state and errors",
+      "Ensured cross-browser compatibility and responsiveness",
+      "Participated in feature planning and UX discussions"
+     ],
+     "achievements": [
+      "Significantly improved practical React skills (hooks, components, structure)",
+      "Enhanced communication and teamwork (planning, Git practices)",
+      "Deepened understanding of REST API and client-server interaction",
+      "Greatly improved speed and quality of responsive layout development"
      ]
     }
    ]
