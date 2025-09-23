@@ -1,6 +1,6 @@
 import "./Header.less";
 import MailIcon from "../../icons/mail.svg";
-import PhoneIcon from "../../icons/phone.svg";
+// import PhoneIcon from "../../icons/phone.svg";
 import SchoolIcon from "../../icons/school.svg";
 import GitHubIcon from "../../icons/github.svg";
 import TelegramIcon from "../../icons/telegram.svg";
@@ -13,9 +13,9 @@ import {
  EMAIL_LINK,
  GITHUB_LINK,
  PDF_LINK,
- PHONE_LINK,
+ //  PHONE_LINK,
  TELEGRAM_LINK,
- UNIVERSITY_LINK,
+ DIPLOMA_LINK,
 } from "./consts";
 
 export const Header = () => {
@@ -30,11 +30,11 @@ export const Header = () => {
      <div className="header-block-info-links">
       <span>
        <SchoolIcon />
-       <Link href={UNIVERSITY_LINK} text={t("university")} />
+       <Link href={DIPLOMA_LINK} text={t("university")} />
       </span>
       <span>
        <TelegramIcon /> <Link href={TELEGRAM_LINK} text="Telegram" />
-       <PhoneIcon /> <Link href={PHONE_LINK} text="+996558599499" />
+       {/* <PhoneIcon /> <Link href={PHONE_LINK} text="+996558599499" /> */}
       </span>
       <span>
        <MailIcon /> <Link href={EMAIL_LINK} text="yarsitdikov@gmail.com" />

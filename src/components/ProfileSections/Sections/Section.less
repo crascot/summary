@@ -18,10 +18,18 @@
    flex-direction: column;
    gap: 8px;
 
-   h4 {
+   @media (max-width: 636px) {
+    padding-left: 0;
+   }
+
+   &-title {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    gap: 5px;
     padding-bottom: 2px;
     border-bottom: 2px solid @pallete-black;
-    width: max-content;
+    margin-bottom: 10px;
    }
 
    &-lists {
@@ -30,6 +38,12 @@
     gap: 1.5rem;
 
     &-list {
+     padding-left: 10px;
+
+     @media (max-width: 636px) {
+      padding-left: 0;
+     }
+
      h5 {
       margin-bottom: 12px;
      }
