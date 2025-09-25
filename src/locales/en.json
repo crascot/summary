@@ -3,6 +3,12 @@
   "title": "Sitdikov Yaroslav Front-End Developer",
   "description": "Professional developer with experience in web development and application creation. Experience with React, TypeScript, Next.js and MobX. I have skills in developing adaptive interfaces, working with server APIs and managing application state."
  },
+ "information": {
+  "contacts": "Contacts",
+  "city": "Bishkek, Kyrgyzstan (open to relocation)",
+  "resumeAndDiploma": "Diploma",
+  "languages": "Languages"
+ },
  "name": "Sitdikov Yaroslav",
  "university": "KSTU named after Razzakov",
  "languages": {
