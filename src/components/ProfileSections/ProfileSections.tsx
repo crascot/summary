@@ -14,7 +14,7 @@ enum Section {
 export const ProfileSections = () => {
  const { t } = useTranslation();
  const [activeSection, setActiveSection] = useState<Section>(Section.Skills);
- const [printMod] = useState<boolean>(true);
+ const [printMod] = useState<boolean>(false);
 
  const renderNavigation = () => {
   if (printMod) {
