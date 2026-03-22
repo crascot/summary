@@ -1,6 +1,3 @@
-export const DIPLOMA_LINK =
- "https://diplom.edu.gov.kg/diploma/ajZXckw2Q0dnMDBQQmcvUkkzTldDVXhsanhrRmpjVlIrcXNHbmxaRU00ST0=";
-
 export const TELEGRAM_LINK = "https://t.me/crascot";
 
 export const EMAIL_LINK = "mailto:yarsitdikov@gmail.com";

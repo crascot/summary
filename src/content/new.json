@@ -1,13 +1,4 @@
 {
- "skills": {
-  "title": "Docker",
-  "list": [
-   "Работа с volume, bind mount, port mapping, .env в контейнерах.",
-   "Оптимизация сборки образов: multi-stage build, кэширование.",
-   "Настройка сети между сервисами (backend ↔ db ↔ frontend).",
-   "Развёртывание dev-окружения и подготовка к staging/prod-среде."
-  ]
- },
  "works": {
   "title": "June Homes",
   "time": "Поступил 1 юня 2025 года",

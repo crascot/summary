@@ -9,13 +9,7 @@ import GlobeIcon from "../../icons/globe.svg";
 import LocationIcon from "../../icons/location.svg";
 import { Link } from "../Link";
 import { useTranslation } from "react-i18next";
-import {
- EMAIL_LINK,
- GITHUB_LINK,
- TELEGRAM_LINK,
- DIPLOMA_LINK,
- PDF_LINK,
-} from "./consts";
+import { EMAIL_LINK, GITHUB_LINK, TELEGRAM_LINK, PDF_LINK } from "./consts";
 
 export const Header = () => {
  const { t } = useTranslation();
@@ -51,7 +45,7 @@ export const Header = () => {
        <h4>{t("information.resumeAndDiploma")}</h4>
        <span>
         <SchoolIcon />
-        <Link href={DIPLOMA_LINK} text={t("university")} />
+        <span>{t("university")}</span>
        </span>
       </div>
 

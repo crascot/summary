@@ -13,7 +13,7 @@ export const Skills = () => {
    <div className="section-content">
     {skillsJson.info.map((content: InfoType) => (
      <div className="section-content-block" key={uuidv4()}>
-      <h4>{content.title}</h4>
+      <h3 className="section-content-block-title">{content.title}</h3>
       <p>{content.text}</p>
       <ul>
        {content.list.map(element => (

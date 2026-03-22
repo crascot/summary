@@ -19,14 +19,17 @@ export const Experience = () => {
 
      return (
       <div className="section-content-block" key={uuidv4()}>
-       <div className="section-content-block-title">
-        <h4>{content.title}</h4>
-        <h4>-</h4>
-        <h4>({content.time})</h4>
-       </div>
+       <h3 className="section-content-block-title">{content.title}</h3>
+       <h5 className="section-content-block-subtitle">
+        <strong>{content.time}</strong>
+       </h5>
        <div className="section-content-block-lists">
         <div className="section-content-block-lists-list">
-         {hasLists && <h5>{t("responsibilities")}</h5>}
+         {hasLists && (
+          <h5 className="section-content-block-lists-list-title">
+           {t("responsibilities")}
+          </h5>
+         )}
          <ul>
           {content.list.map(element => (
            <li key={uuidv4()}>{element}</li>
@@ -34,7 +37,11 @@ export const Experience = () => {
          </ul>
         </div>
         <div className="section-content-block-lists-list">
-         {hasLists && <h5>{t("achievements")}</h5>}
+         {hasLists && (
+          <h5 className="section-content-block-lists-list-title">
+           {t("achievements")}
+          </h5>
+         )}
          <ul>
           {content.achievements?.map(element => (
            <li key={uuidv4()}>{element}</li>

@@ -29,106 +29,125 @@
    "info": [
     {
      "title": "HTML / CSS",
-     "text": "Confidently work with HTML and CSS, using semantic markup and modern styling approaches. Create responsive interfaces focused on cross-browser compatibility and performance.",
+     "text": "Confidently work with HTML and CSS, using semantic markup and modern styling approaches. Build responsive and cross-browser interfaces with attention to structure, performance, and code maintainability.",
      "list": [
-      "Tag semantics",
-      "Forms and validation",
-      "Class naming conventions",
-      "Layouts and responsiveness",
-      "CSS tools and methodologies"
+      "Semantic markup",
+      "Forms and basic validation",
+      "Flexbox, Grid, and responsive layouts",
+      "Class naming and style organization",
+      "Cross-browser compatibility and performance"
      ]
     },
     {
      "title": "JavaScript",
-     "text": "Strong knowledge of JavaScript ES6+ for building interactive web applications. Apply modern techniques for working with the DOM, events, and asynchronous operations.",
+     "text": "Confidently use JavaScript (ES6+) to build interactive interfaces and client-side logic. Work with the DOM, events, asynchronous operations, APIs, and data handling in the browser.",
      "list": [
-      "Language fundamentals",
-      "Working with DOM",
-      "Working with APIs",
+      "JavaScript fundamentals and ES6+",
+      "DOM and event handling",
+      "Working with APIs and data",
       "Asynchronous programming",
-      "Frameworks and libraries",
-      "ES6+"
+      "Modules and code structure",
+      "Error handling"
      ]
     },
     {
      "title": "TypeScript",
-     "text": "Use TypeScript to build reliable, scalable applications with explicit typing. Ensure type safety at compile time, minimizing runtime errors.",
+     "text": "Use TypeScript to build type-safe and maintainable applications. Apply strict typing to data, functions, components, and API contracts, reducing development-time errors.",
      "list": [
-      "Typing and code structure",
-      "Functions and classes",
-      "Working with external libraries",
-      "OOP and SOLID principles",
+      "Typing for data, functions, and components",
+      "Interfaces, Types, and Generics",
+      "DTOs, API contracts, and external types",
+      "Utility Types and type narrowing",
       "Integration with React and Node.js",
-      "Build tools and type checking"
+      "Type checking and configuration"
      ]
     },
     {
      "title": "React",
-     "text": "Experience in developing web applications using React, including components, hooks, routing, and state management. Build modular and scalable UIs with high performance.",
+     "text": "Build web applications with React using a component-based approach, hooks, and state management. Create modular and scalable UIs, working with forms, client-side logic, and API integration.",
      "list": [
-      "Hooks",
-      "Lifecycle and side effects",
+      "Components and Hooks",
       "State management",
-      "Routing",
-      "Component styling",
-      "Performance optimization",
+      "Side effects",
       "Forms and validation",
-      "API integration"
+      "API integration",
+      "Reusable UI patterns",
+      "Performance optimization"
      ]
     },
     {
-     "title": "Node.js",
-     "text": "Confident use of Node.js for creating server applications and REST API. Working with modules, asynchrony (event loop, promises, async/await) and setting up environments. I use Node.js as a basis for NestJS and Express applications, integrating databases and external APIs.",
+     "title": "Next.js",
+     "text": "Build web applications with Next.js using file-based routing, SSR, SSG, and hybrid rendering approaches. Use Next.js to create high-performance, SEO-friendly, and scalable interfaces with seamless API and TypeScript integration.",
      "list": [
-      "Asyncrony and event loop",
-      "REST API",
-      "Working with databases",
-      "Configuring environments",
-      "Integration with Docker"
+      "Routing and app structure",
+      "SSR, SSG, ISR",
+      "Server and Client Components",
+      "Data fetching and API integration",
+      "SEO and performance optimization",
+      "Integration with React and TypeScript"
+     ]
+    },
+
+    {
+     "title": "Node.js",
+     "text": "Use Node.js confidently to build server-side logic, APIs, and external integrations. Strong understanding of asynchronous programming, the event loop, module system, environment configuration, and backend service architecture.",
+     "list": [
+      "Asynchronous programming and event loop",
+      "Modules and environment configuration",
+      "REST APIs",
+      "Database integration",
+      "File uploads",
+      "External service integration"
+     ]
+    },
+    {
+     "title": "Express",
+     "text": "Build server-side applications and REST APIs with Express, including manual setup of routing, middleware, validation, and error handling. Implement authentication, database integration, file uploads, and third-party service integrations.",
+     "list": [
+      "Routing and middleware",
+      "Error handling",
+      "Authentication and authorization",
+      "Request validation",
+      "Database integration",
+      "File uploads and integrations"
      ]
     },
     {
      "title": "NestJS",
-     "text": "I develop reliable server applications on NestJS using modular architecture, ORM and secure authorization. I use TypeScript, following the principles of SOLID and DI.",
+     "text": "Build backend applications with NestJS using modular architecture, dependency injection, and TypeScript. Apply guards, pipes, interceptors, DTOs, and ORM tools to create maintainable and scalable services.",
      "list": [
-      "REST API",
-      "Authentication and authorization, working with tokens",
-      "Working with databases",
-      "Configuration and environment variables",
-      "Middleware and Interceptors",
-      "Validation and error handling",
-      "Documentation and API testing",
-      "Integration with the frontend"
+      "Modular architecture and DI",
+      "Guards, Pipes, Middleware, Interceptors",
+      "DTOs and data validation",
+      "Authentication and authorization",
+      "ORM and database integration",
+      "API documentation"
      ]
     },
+
     {
-     "title": "Git / GitHub",
-     "text": "Confident in using Git for both team and individual development. Apply version control to maintain clean commit history, branch management, and conflict resolution.",
+     "title": "Git / GitHub / GitLab",
+     "text": "Experienced in using Git, GitHub, and GitLab in both individual and team-based development. Work with branching, change history, merge/pull request workflows, conflict resolution, and basic process automation to support a transparent and well-structured development cycle.",
      "list": [
-      "Creating and cloning repositories, setting up .gitignore, README",
-      "Branch management: feature/bugfix branches, rebase, squash, merge",
-      "Resolving merge and pull request conflicts",
-      "Meaningful commits, pre-commit lint hooks"
+      "Branching and Git workflow",
+      "Commits, rebase, squash, merge",
+      "Pull requests / Merge requests",
+      "Code review and conflict resolution",
+      "Repository structure and documentation",
+      "Git hooks and basic CI/CD automation"
      ]
     },
+
     {
      "title": "Docker",
-     "text": "Use Docker for app containerization and environment setup. Package applications into independent images for simplified deployment and development.",
+     "text": "Experienced in using Docker for application containerization, isolated environment setup, and simplifying local development and deployment. Build and optimize images, configure service interaction, and use Docker Compose for multi-container applications.",
      "list": [
-      "Containerization basics and key concepts",
-      "Experience creating Docker images using Dockerfile",
-      "Setting up docker-compose for multi-container applications"
-     ]
-    },
-    {
-     "title": "Soft Skills",
-     "text": "",
-     "list": [
-      "Teamwork",
-      "Self-motivation",
-      "Continuous learning",
-      "Communication",
-      "Responsibility"
+      "Application and environment containerization",
+      "Docker Compose and multi-container services",
+      "Volumes, bind mounts, and environment variables",
+      "Port mapping and container communication",
+      "Image optimization: multi-stage builds and caching",
+      "Preparing dev and staging/prod environments"
      ]
     }
    ]
@@ -136,12 +155,6 @@
   "experience": {
    "title": "Work Experience",
    "info": [
-    {
-     "title": "June Homes",
-     "time": "Present",
-     "list": [],
-     "achievements": []
-    },
     {
      "title": "Almurut Store",
      "time": "November 2023 – April 2025",

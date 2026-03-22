@@ -80,9 +80,8 @@
   &-image {
    flex: 1;
    min-width: 257px;
-   //    width: 176px;
-   //    height: 176px;
-   border-radius: 50%;
+
+   border-radius: @border-radius;
 
    @media (width<=636px) {
     display: none;
@@ -91,7 +90,7 @@
  }
 
  &-about-me {
-  border-radius: 12px 12px 3px 3px;
+  border-radius: @border-radius @border-radius 3px 3px;
   margin: 0 -30px -30px;
   padding: 10px;
   background-color: @pallete-background;
