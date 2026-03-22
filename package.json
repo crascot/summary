@@ -10,7 +10,7 @@
   "lint": "eslint src",
   "lint:fix": "eslint src --fix",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+  "deploy": "npm run predeploy && gh-pages -d dist"
  },
  "author": "",
  "license": "ISC",
