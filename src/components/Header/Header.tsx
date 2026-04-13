@@ -72,7 +72,7 @@ export const Header = () => {
      </div>
     </div>
     <div className="header-block-container">
-     <img className="header-block-container-image" src="me.png" alt="me" />
+     <img className="header-block-container-image" src="me.jpg" alt="me" />
     </div>
    </div>
    <div className="header-about-me">
