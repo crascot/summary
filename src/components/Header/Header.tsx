@@ -71,7 +71,9 @@ export const Header = () => {
       </span>
      </div>
     </div>
-    <img className="header-block-image" src="me.jpg" alt="me" />
+    <div className="header-block-container">
+     <img className="header-block-container-image" src="me.png" alt="me" />
+    </div>
    </div>
    <div className="header-about-me">
     <h2>{t("aboutMe.title")}</h2>

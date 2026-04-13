@@ -77,14 +77,23 @@
    }
   }
 
-  &-image {
+  &-container {
    flex: 1;
    min-width: 257px;
-
+   height: 257px;
    border-radius: @border-radius;
+   overflow: hidden;
 
    @media (width<=636px) {
     display: none;
+   }
+
+   &-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -4px -10px;
+    transform: scale(1.3);
    }
   }
  }
