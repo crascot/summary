@@ -5,7 +5,7 @@ export const GITHUB_LINK = "https://github.com/crascot";
 
 export const PDF_LINK = (lang: string | undefined) => {
  if (lang === "ru") {
-  return `/summary/files/Ситдиков Ярослав JavaScript Developer.pdf`;
+  return `/summary/files/Ситдиков Ярослав JavaScript/Golang Developer.pdf`;
  }
- return `/summary/files/Sitdikov Yaroslav JavaScript Developer.pdf`;
+ return `/summary/files/Sitdikov Yaroslav JavaScript/Golang Developer.pdf`;
 };

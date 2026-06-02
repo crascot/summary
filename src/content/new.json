@@ -1,7 +1,48 @@
 {
- "works": {
-  "title": "June Homes",
-  "time": "Поступил 1 юня 2025 года",
-  "time": "Present"
- }
+ "content": [
+  {
+   "title": "June Homes",
+   "time": "Июнь 2025 - Апрель 2026",
+   "list": [
+    "Разрабатывал и поддерживал web-продукт для работы с рынком американских апартаментов",
+    "Выступал ведущим frontend-разработчиком на проекте",
+    "Прорабатывал и внедрял новые пользовательские фичи на frontend-стороне",
+    "Писал и поддерживал A/B-тесты, unit-тесты и e2e-тесты",
+    "Оптимизировал производительность нагруженных страниц, включая метрики LCP и CLS",
+    "Взаимодействовал с backend-командой при планировании улучшений, интеграций и новых релизов",
+    "Обновлял и улучшал конфигурацию приложения",
+    "Работал над Docker-сборкой и оптимизацией окружения приложения"
+   ],
+   "achievements": [
+    "Улучшил производительность ключевых страниц и снизил нагрузку примерно на 20%",
+    "Углубил практический опыт в оптимизации Core Web Vitals, особенно LCP и CLS",
+    "Получил опыт самостоятельного ведения frontend-направления в production-продукте",
+    "Усилил навыки тестирования frontend-приложений через unit, e2e и A/B-подходы",
+    "Улучшил понимание взаимодействия frontend и backend команд при подготовке релизов",
+    "Расширил опыт работы с конфигурацией приложения, Docker-сборками и production-окружением"
+   ]
+  },
+  {
+   "title": "June Homes",
+   "time": "June 2025 - April 2026",
+   "list": [
+    "Developed and maintained a web product for the U.S. apartment rental market",
+    "Served as the lead frontend developer on the project",
+    "Designed and implemented new user-facing frontend features",
+    "Created and maintained A/B tests, unit tests, and e2e tests",
+    "Optimized high-traffic pages, including LCP and CLS performance metrics",
+    "Collaborated with the backend team on technical improvements, integrations, and release planning",
+    "Updated and improved the application configuration",
+    "Worked on Docker builds and frontend environment optimization"
+   ],
+   "achievements": [
+    "Improved performance of key pages and reduced frontend-related load by approximately 20%",
+    "Gained deeper hands-on experience with Core Web Vitals optimization, especially LCP and CLS",
+    "Took ownership of the frontend direction in a production web product",
+    "Strengthened frontend testing skills through unit, e2e, and A/B testing practices",
+    "Improved collaboration with backend engineers during feature planning and release preparation",
+    "Expanded experience with application configuration, Docker builds, and production environments"
+   ]
+  }
+ ]
 }

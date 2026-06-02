@@ -1,6 +1,6 @@
 {
  "head": {
-  "title": "Sitdikov Yaroslav JavaScript Developer",
+  "title": "Sitdikov Yaroslav JavaScript/Golang Developer",
   "description": "Professional developer with experience in web development and application creation. Experience with React, TypeScript, Next.js and MobX. I have skills in developing adaptive interfaces, working with server APIs and managing application state."
  },
  "information": {
@@ -19,14 +19,26 @@
   "title": "About Me",
   "text": "I’m a developer who genuinely enjoys coding. I love finding simple solutions to complex problems and constantly learning new things—whether it’s a new framework, architectural approach, or life skill. My positive mindset and proactivity help me not only at work but also in life."
  },
- "buttons": {
-  "skills": "Skills",
-  "experience": "Work Experience"
- },
  "content": {
   "skills": {
    "title": "Skills",
    "info": [
+    {
+     "title": "Go / Golang",
+     "text": "Use Go to build backend applications, REST APIs, and service-oriented systems. Develop application logic with clear project structure, typed data models, validation, error handling, database access, and Docker-based environments. Apply backend experience from Node.js, Express, and NestJS to Go development.",
+     "list": [
+      "Go syntax, structs, interfaces, methods, pointers",
+      "Packages, modules, dependency management",
+      "REST API development with routing and middleware",
+      "Request validation, error handling, and logging",
+      "PostgreSQL integration and SQL queries",
+      "Authentication and authorization basics",
+      "Context, goroutines, channels, and concurrency fundamentals",
+      "Unit tests and table-driven tests",
+      "Docker and Docker Compose for Go services",
+      "Clean project structure and maintainable backend architecture"
+     ]
+    },
     {
      "title": "HTML / CSS",
      "text": "Confidently work with HTML and CSS, using semantic markup and modern styling approaches. Build responsive and cross-browser interfaces with attention to structure, performance, and code maintainability.",
