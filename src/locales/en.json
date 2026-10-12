@@ -1,7 +1,7 @@
 {
  "head": {
-  "title": "Sitdikov Yaroslav JavaScript/Golang Developer",
-  "description": "Professional developer with experience in web development and application creation. Experience with React, TypeScript, Next.js and MobX. I have skills in developing adaptive interfaces, working with server APIs and managing application state."
+  "title": "Sitdikov Yaroslav — Middle+ Frontend Developer",
+  "description": "Frontend developer with 3+ years of commercial experience building production web applications with React, Next.js and TypeScript. Experience with performance optimization, testing, SSR and Docker-based environments."
  },
  "information": {
   "contacts": "Contacts",
@@ -13,154 +13,35 @@
  "university": "KSTU named after Razzakov",
  "languages": {
   "title": "Languages",
-  "compact": ["Russian — native", "English — basic (technical docs)"]
+  "compact": ["Russian — native", "English — Pre-Intermediate"]
  },
  "aboutMe": {
-  "title": "About Me",
-  "text": "I’m a developer who genuinely enjoys coding. I love finding simple solutions to complex problems and constantly learning new things—whether it’s a new framework, architectural approach, or life skill. My positive mindset and proactivity help me not only at work but also in life."
+  "title": "Middle+ Frontend Developer",
+  "text": "Frontend developer with 3+ years of commercial experience building production web applications with React, Next.js and TypeScript. Most recently the lead frontend developer of a Next.js web product for the U.S. apartment rental market: carried out a full site redesign, shipped new features, wrote unit and e2e tests, ran A/B tests and optimized Core Web Vitals. Previously built an e-commerce storefront with Next.js SSR and MobX. Experienced with Docker-based environments; basic knowledge of Node.js/NestJS and Go."
  },
  "content": {
   "skills": {
-   "title": "Skills",
+   "title": "Technical Skills",
    "info": [
     {
-     "title": "Go / Golang",
-     "text": "Use Go to build backend applications, REST APIs, and service-oriented systems. Develop application logic with clear project structure, typed data models, validation, error handling, database access, and Docker-based environments. Apply backend experience from Node.js, Express, and NestJS to Go development.",
-     "list": [
-      "Go syntax, structs, interfaces, methods, pointers",
-      "Packages, modules, dependency management",
-      "REST API development with routing and middleware",
-      "Request validation, error handling, and logging",
-      "PostgreSQL integration and SQL queries",
-      "Authentication and authorization basics",
-      "Context, goroutines, channels, and concurrency fundamentals",
-      "Unit tests and table-driven tests",
-      "Docker and Docker Compose for Go services",
-      "Clean project structure and maintainable backend architecture"
-     ]
+     "title": "Frontend",
+     "text": "React, Next.js (SSR / SSG / ISR), TypeScript, JavaScript (ES6+), MobX, REST API, HTML/CSS (SCSS, BEM), Ant Design, MUI",
+     "list": []
     },
     {
-     "title": "HTML / CSS",
-     "text": "Confidently work with HTML and CSS, using semantic markup and modern styling approaches. Build responsive and cross-browser interfaces with attention to structure, performance, and code maintainability.",
-     "list": [
-      "Semantic markup",
-      "Forms and basic validation",
-      "Flexbox, Grid, and responsive layouts",
-      "Class naming and style organization",
-      "Cross-browser compatibility and performance"
-     ]
+     "title": "Performance & Testing",
+     "text": "Core Web Vitals (LCP, CLS), Unit Testing, E2E Testing (Playwright), A/B Testing",
+     "list": []
     },
     {
-     "title": "JavaScript",
-     "text": "Confidently use JavaScript (ES6+) to build interactive interfaces and client-side logic. Work with the DOM, events, asynchronous operations, APIs, and data handling in the browser.",
-     "list": [
-      "JavaScript fundamentals and ES6+",
-      "DOM and event handling",
-      "Working with APIs and data",
-      "Asynchronous programming",
-      "Modules and code structure",
-      "Error handling"
-     ]
+     "title": "Tools",
+     "text": "Git, GitHub, GitLab, Docker, Docker Compose, basic CI/CD",
+     "list": []
     },
     {
-     "title": "TypeScript",
-     "text": "Use TypeScript to build type-safe and maintainable applications. Apply strict typing to data, functions, components, and API contracts, reducing development-time errors.",
-     "list": [
-      "Typing for data, functions, and components",
-      "Interfaces, Types, and Generics",
-      "DTOs, API contracts, and external types",
-      "Utility Types and type narrowing",
-      "Integration with React and Node.js",
-      "Type checking and configuration"
-     ]
-    },
-    {
-     "title": "React",
-     "text": "Build web applications with React using a component-based approach, hooks, and state management. Create modular and scalable UIs, working with forms, client-side logic, and API integration.",
-     "list": [
-      "Components and Hooks",
-      "State management",
-      "Side effects",
-      "Forms and validation",
-      "API integration",
-      "Reusable UI patterns",
-      "Performance optimization"
-     ]
-    },
-    {
-     "title": "Next.js",
-     "text": "Build web applications with Next.js using file-based routing, SSR, SSG, and hybrid rendering approaches. Use Next.js to create high-performance, SEO-friendly, and scalable interfaces with seamless API and TypeScript integration.",
-     "list": [
-      "Routing and app structure",
-      "SSR, SSG, ISR",
-      "Server and Client Components",
-      "Data fetching and API integration",
-      "SEO and performance optimization",
-      "Integration with React and TypeScript"
-     ]
-    },
-
-    {
-     "title": "Node.js",
-     "text": "Use Node.js confidently to build server-side logic, APIs, and external integrations. Strong understanding of asynchronous programming, the event loop, module system, environment configuration, and backend service architecture.",
-     "list": [
-      "Asynchronous programming and event loop",
-      "Modules and environment configuration",
-      "REST APIs",
-      "Database integration",
-      "File uploads",
-      "External service integration"
-     ]
-    },
-    {
-     "title": "Express",
-     "text": "Build server-side applications and REST APIs with Express, including manual setup of routing, middleware, validation, and error handling. Implement authentication, database integration, file uploads, and third-party service integrations.",
-     "list": [
-      "Routing and middleware",
-      "Error handling",
-      "Authentication and authorization",
-      "Request validation",
-      "Database integration",
-      "File uploads and integrations"
-     ]
-    },
-    {
-     "title": "NestJS",
-     "text": "Build backend applications with NestJS using modular architecture, dependency injection, and TypeScript. Apply guards, pipes, interceptors, DTOs, and ORM tools to create maintainable and scalable services.",
-     "list": [
-      "Modular architecture and DI",
-      "Guards, Pipes, Middleware, Interceptors",
-      "DTOs and data validation",
-      "Authentication and authorization",
-      "ORM and database integration",
-      "API documentation"
-     ]
-    },
-
-    {
-     "title": "Git / GitHub / GitLab",
-     "text": "Experienced in using Git, GitHub, and GitLab in both individual and team-based development. Work with branching, change history, merge/pull request workflows, conflict resolution, and basic process automation to support a transparent and well-structured development cycle.",
-     "list": [
-      "Branching and Git workflow",
-      "Commits, rebase, squash, merge",
-      "Pull requests / Merge requests",
-      "Code review and conflict resolution",
-      "Repository structure and documentation",
-      "Git hooks and basic CI/CD automation"
-     ]
-    },
-
-    {
-     "title": "Docker",
-     "text": "Experienced in using Docker for application containerization, isolated environment setup, and simplifying local development and deployment. Build and optimize images, configure service interaction, and use Docker Compose for multi-container applications.",
-     "list": [
-      "Application and environment containerization",
-      "Docker Compose and multi-container services",
-      "Volumes, bind mounts, and environment variables",
-      "Port mapping and container communication",
-      "Image optimization: multi-stage builds and caching",
-      "Preparing dev and staging/prod environments"
-     ]
+     "title": "Backend (basic knowledge)",
+     "text": "Node.js, NestJS, PostgreSQL, Go",
+     "list": []
     }
    ]
   },
@@ -168,38 +49,45 @@
    "title": "Work Experience",
    "info": [
     {
+     "title": "June Homes",
+     "time": "June 2025 - September 2026",
+     "list": [
+      "Lead frontend developer of a production web product (Next.js, TypeScript) for the U.S. apartment rental market; owned the frontend direction and day-to-day development",
+      "Carried out a full redesign of the website: implemented Figma designs by reworking markup, components and application logic",
+      "Discussed UI/UX decisions with the designer to agree on the best approach for the redesign",
+      "Tested the redesign with Playwright and identified mismatches with the designs",
+      "Designed and implemented new user-facing features and maintained the existing frontend",
+      "Optimized high-traffic pages with a focus on Core Web Vitals (LCP, CLS)",
+      "Implemented and maintained A/B tests, unit tests and e2e tests",
+      "Worked with backend engineers on integrations, technical improvements and release planning",
+      "Maintained application configuration; improved Docker builds and frontend environments"
+     ],
+     "achievements": [
+      "Improved performance of key pages and reduced CLS by approximately 20%"
+     ]
+    },
+    {
      "title": "Almurut Store",
      "time": "November 2023 – April 2025",
      "list": [
-      "Designed the interface of an e-commerce store using React + TypeScript",
-      "Used MobX, Ant Design, and SSR with Next.js",
-      "Developed forms, filters, product cards, and pages"
+      "Developed the frontend of an e-commerce store with React, TypeScript and Next.js",
+      "Used Next.js SSR for server-rendered pages with SEO in mind",
+      "Implemented forms, filters, product cards and product pages with Ant Design",
+      "Managed application state with MobX; typed complex data structures and components in TypeScript",
+      "Set up development environments with Docker and Docker Compose"
      ],
-     "achievements": [
-      "Mastered Docker and docker-compose for environment setup",
-      "Improved TypeScript knowledge (typing complex structures, components)",
-      "Enhanced SEO and SSR skills with Next.js",
-      "Became more self-reliant",
-      "Strengthened architectural thinking and code structuring"
-     ]
+     "achievements": []
     },
     {
      "title": "Kurut-IT",
      "time": "September 2022 – July 2023",
      "list": [
-      "Developed SPA applications using React + Vite",
-      "Created responsive layouts based on Figma designs",
-      "Used SCSS, BEM methodology, and UI libraries (Bootstrap, MUI)",
-      "Integrated REST APIs, handled state and errors",
-      "Ensured cross-browser compatibility and responsiveness",
-      "Participated in feature planning and UX discussions"
+      "Developed single-page applications with React + Vite",
+      "Built responsive, cross-browser layouts from Figma designs (SCSS, BEM, MUI, Bootstrap)",
+      "Integrated REST APIs and handled application state and errors",
+      "Took part in feature planning and UX discussions"
      ],
-     "achievements": [
-      "Significantly improved practical React skills (hooks, components, structure)",
-      "Enhanced communication and teamwork (planning, Git practices)",
-      "Deepened understanding of REST API and client-server interaction",
-      "Greatly improved speed and quality of responsive layout development"
-     ]
+     "achievements": []
     }
    ]
   }

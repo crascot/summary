@@ -14,8 +14,8 @@ export const Experience = () => {
   <div className="section">
    <div className="section-content">
     {experienceJson.info.map(content => {
-     const hasLists =
-      content.list.length > 0 || content.achievements!.length > 0;
+     const hasAchievements = (content.achievements?.length ?? 0) > 0;
+     const hasLists = content.list.length > 0 || hasAchievements;
 
      return (
       <div className="section-content-block" key={uuidv4()}>
@@ -36,18 +36,18 @@ export const Experience = () => {
           ))}
          </ul>
         </div>
-        <div className="section-content-block-lists-list">
-         {hasLists && (
+        {hasAchievements && (
+         <div className="section-content-block-lists-list">
           <h5 className="section-content-block-lists-list-title">
            {t("achievements")}
           </h5>
-         )}
-         <ul>
-          {content.achievements?.map(element => (
-           <li key={uuidv4()}>{element}</li>
-          ))}
-         </ul>
-        </div>
+          <ul>
+           {content.achievements!.map(element => (
+            <li key={uuidv4()}>{element}</li>
+           ))}
+          </ul>
+         </div>
+        )}
        </div>
       </div>
      );
