@@ -1,6 +1,6 @@
 {
  "head": {
-  "title": "Sitdikov Yaroslav — Middle+ Frontend Developer",
+  "title": "Sitdikov Yaroslav — Middle Frontend Developer",
   "description": "Frontend developer with 3+ years of commercial experience building production web applications with React, Next.js and TypeScript. Experience with performance optimization, testing, SSR and Docker-based environments."
  },
  "information": {
@@ -16,8 +16,8 @@
   "compact": ["Russian — native", "English — Pre-Intermediate"]
  },
  "aboutMe": {
-  "title": "Middle+ Frontend Developer",
-  "text": "Frontend developer with 3+ years of commercial experience building production web applications with React, Next.js and TypeScript. Most recently the lead frontend developer of a Next.js web product for the U.S. apartment rental market: carried out a full site redesign, shipped new features, wrote unit and e2e tests, ran A/B tests and optimized Core Web Vitals. Previously built an e-commerce storefront with Next.js SSR and MobX. Experienced with Docker-based environments; basic knowledge of Node.js/NestJS and Go."
+  "title": "Middle Frontend Developer",
+  "text": "Frontend developer with 3+ years of commercial experience building production web applications with React, Next.js and TypeScript. Currently leading frontend development of a Next.js web product for the U.S. apartment rental market. Responsible for implementing new features, redesigning the website, maintaining unit and e2e tests, conducting A/B tests and optimizing Core Web Vitals. Previously developed an e-commerce storefront with Next.js SSR and MobX. Experienced with Docker-based environments; basic knowledge of Node.js/NestJS and Go."
  },
  "content": {
   "skills": {
@@ -50,9 +50,9 @@
    "info": [
     {
      "title": "June Homes",
-     "time": "June 2025 - September 2026",
+     "time": "June 2025 - Present",
      "list": [
-      "Lead frontend developer of a production web product (Next.js, TypeScript) for the U.S. apartment rental market; owned the frontend direction and day-to-day development",
+      "Lead frontend developer of a production web product for the U.S. apartment rental market; owned the frontend direction and day-to-day development.",
       "Carried out a full redesign of the website: implemented Figma designs by reworking markup, components and application logic",
       "Discussed UI/UX decisions with the designer to agree on the best approach for the redesign",
       "Tested the redesign with Playwright and identified mismatches with the designs",
@@ -68,7 +68,7 @@
     },
     {
      "title": "Almurut Store",
-     "time": "November 2023 – April 2025",
+     "time": "November 2023 - April 2025",
      "list": [
       "Developed the frontend of an e-commerce store with React, TypeScript and Next.js",
       "Used Next.js SSR for server-rendered pages with SEO in mind",
@@ -80,7 +80,7 @@
     },
     {
      "title": "Kurut-IT",
-     "time": "September 2022 – July 2023",
+     "time": "September 2022 - July 2023",
      "list": [
       "Developed single-page applications with React + Vite",
       "Built responsive, cross-browser layouts from Figma designs (SCSS, BEM, MUI, Bootstrap)",
