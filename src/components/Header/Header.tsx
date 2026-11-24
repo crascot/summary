@@ -1,6 +1,5 @@
 import "./Header.less";
 import MailIcon from "../../icons/mail.svg";
-import { useParams } from "react-router-dom";
 import SchoolIcon from "../../icons/school.svg";
 import GitHubIcon from "../../icons/github.svg";
 import TelegramIcon from "../../icons/telegram.svg";
@@ -9,11 +8,18 @@ import GlobeIcon from "../../icons/globe.svg";
 import LocationIcon from "../../icons/location.svg";
 import { Link } from "../Link";
 import { useTranslation } from "react-i18next";
+import { SPECIALTY } from "../../specialty";
+import { InfoType } from "../../types/contentType";
+import { calculateExperience } from "../../utils/calculateExperience";
 import { EMAIL_LINK, GITHUB_LINK, TELEGRAM_LINK, PDF_LINK } from "./consts";
 
 export const Header = () => {
  const { t } = useTranslation();
- const { lang } = useParams();
+ const { pdf } = SPECIALTY;
+
+ const experience = calculateExperience(
+  t("content.experience.info", { returnObjects: true }) as InfoType[],
+ );
 
  return (
   <div className="header">
@@ -64,12 +70,14 @@ export const Header = () => {
       </div>
      </div>
 
-     <div className="header-block-info-section header-block-info-section-pdf">
-      <span>
-       <DownloadIcon />
-       <Link href={PDF_LINK(lang!)} text="PDF" />
-      </span>
-     </div>
+     {pdf && (
+      <div className="header-block-info-section header-block-info-section-pdf">
+       <span>
+        <DownloadIcon />
+        <Link href={PDF_LINK(pdf)} text="PDF" />
+       </span>
+      </div>
+     )}
     </div>
     <div className="header-block-container">
      {/* <img className="header-block-container-image" src="me.jpg" alt="me" /> */}
@@ -77,7 +85,7 @@ export const Header = () => {
    </div>
    <div className="header-about-me">
     <h2>{t("aboutMe.title")}</h2>
-    <p>{t("aboutMe.text")}</p>
+    <p>{t("aboutMe.text", { experience })}</p>
    </div>
   </div>
  );

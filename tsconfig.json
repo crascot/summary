@@ -15,7 +15,10 @@
   "resolveJsonModule": true,
   "isolatedModules": true,
   "noEmit": false,
-  "jsx": "react-jsx"
+  "jsx": "react-jsx",
+  "paths": {
+   "@specialty": ["./src/locales/specialties/frontend.json"]
+  }
  },
  "include": ["src"]
 }

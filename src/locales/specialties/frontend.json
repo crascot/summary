@@ -1,23 +1,12 @@
 {
+ "pdf": "Yaroslav S. - Middle Frontend Developer.pdf",
  "head": {
-  "title": "Sitdikov Yaroslav — Middle Frontend Developer",
-  "description": "Frontend developer with 3+ years of commercial experience building production web applications with React, Next.js and TypeScript. Experience with performance optimization, testing, SSR and Docker-based environments."
- },
- "information": {
-  "contacts": "Contacts",
-  "city": "Bishkek, Kyrgyzstan (open to relocation)",
-  "resumeAndDiploma": "Diploma",
-  "languages": "Languages"
- },
- "name": "Sitdikov Yaroslav",
- "university": "KSTU named after Razzakov",
- "languages": {
-  "title": "Languages",
-  "compact": ["Russian — native", "English — Pre-Intermediate"]
+  "title": "Yaroslav S. - Middle Frontend Developer",
+  "description": "Frontend developer commercial experience building production web applications with React, Next.js and TypeScript. Experience with performance optimization, testing, SSR and Docker-based environments."
  },
  "aboutMe": {
   "title": "Middle Frontend Developer",
-  "text": "Frontend developer with 3+ years of commercial experience building production web applications with React, Next.js and TypeScript. Currently leading frontend development of a Next.js web product for the U.S. apartment rental market. Responsible for implementing new features, redesigning the website, maintaining unit and e2e tests, conducting A/B tests and optimizing Core Web Vitals. Previously developed an e-commerce storefront with Next.js SSR and MobX. Experienced with Docker-based environments; basic knowledge of Node.js/NestJS and Go."
+  "text": "Frontend developer with {{experience}} years of commercial experience building production web applications with React, Next.js and TypeScript. Currently leading frontend development of a Next.js web product for the U.S. apartment rental market. Responsible for implementing new features, redesigning the website, maintaining unit and e2e tests, conducting A/B tests and optimizing Core Web Vitals. Previously developed an e-commerce storefront with Next.js SSR and MobX. Experienced with Docker-based environments; basic knowledge of Node.js/NestJS and Go."
  },
  "content": {
   "skills": {
@@ -50,7 +39,7 @@
    "info": [
     {
      "title": "June Homes",
-     "time": "June 2025 - Present",
+     "time": { "start": "2025-06", "end": "present" },
      "list": [
       "Lead frontend developer of a production web product for the U.S. apartment rental market; owned the frontend direction and day-to-day development.",
       "Carried out a full redesign of the website: implemented Figma designs by reworking markup, components and application logic",
@@ -68,7 +57,7 @@
     },
     {
      "title": "Almurut Store",
-     "time": "November 2023 - April 2025",
+     "time": { "start": "2022-11", "end": "2025-04" },
      "list": [
       "Developed the frontend of an e-commerce store with React, TypeScript and Next.js",
       "Used Next.js SSR for server-rendered pages with SEO in mind",
@@ -80,7 +69,7 @@
     },
     {
      "title": "Kurut-IT",
-     "time": "September 2022 - July 2023",
+     "time": { "start": "2020-09", "end": "2022-07" },
      "list": [
       "Developed single-page applications with React + Vite",
       "Built responsive, cross-browser layouts from Figma designs (SCSS, BEM, MUI, Bootstrap)",
@@ -91,7 +80,5 @@
     }
    ]
   }
- },
- "responsibilities": "Responsibilities",
- "achievements": "Achievements"
+ }
 }

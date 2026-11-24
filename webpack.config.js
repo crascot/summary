@@ -3,7 +3,16 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
-module.exports = {
+const Role = {
+ frontend: "frontend",
+ fullstack: "fullstack",
+ golang: "golang",
+};
+
+const getSpecialty = env =>
+ (env.WEBPACK_SERVE && env.specialty) || Role.frontend;
+
+module.exports = env => ({
  entry: "./src/index.tsx",
  output: {
   filename: "bundle.js",
@@ -44,6 +53,12 @@ module.exports = {
  },
  resolve: {
   extensions: [".ts", ".tsx", ".js", ".jsx"],
+  alias: {
+   "@specialty$": path.resolve(
+    __dirname,
+    `src/locales/specialties/${getSpecialty(env)}.json`,
+   ),
+  },
  },
  plugins: [
   new CleanWebpackPlugin(),
@@ -57,4 +72,4 @@ module.exports = {
    ],
   }),
  ],
-};
+});

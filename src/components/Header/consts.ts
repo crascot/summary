@@ -3,9 +3,4 @@ export const TELEGRAM_LINK = "https://t.me/crascot";
 export const EMAIL_LINK = "mailto:yarsitdikov@gmail.com";
 export const GITHUB_LINK = "https://github.com/crascot";
 
-export const PDF_LINK = (lang: string | undefined) => {
- if (lang === "ru") {
-  return `/summary/files/Ситдиков Ярослав — Middle Frontend Developer.pdf`;
- }
- return `/summary/files/Sitdikov Yaroslav — Middle Frontend Developer.pdf`;
-};
+export const PDF_LINK = (fileName: string) => `/summary/files/${fileName}`;

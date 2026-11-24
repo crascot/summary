@@ -1,0 +1,137 @@
+{
+ "pdf": "Yaroslav S. - Fullstack Developer.pdf",
+ "head": {
+  "title": "Yaroslav S. - Fullstack Developer",
+  "description": "Fullstack developer with commercial experience: Go on the backend, TypeScript, React and Next.js on the frontend. Experience with REST/gRPC services, PostgreSQL, Redis, Kafka, ClickHouse, multi-tenant systems, booking platforms and public API SDKs."
+ },
+ "aboutMe": {
+  "title": "Fullstack Developer",
+  "text": "Fullstack developer with {{experience}} years of commercial experience: Go on the backend, TypeScript, React and Next.js on the frontend. I build REST and gRPC services with net/http, design PostgreSQL schemas and queries, and work with Redis, Kafka and ClickHouse. I've worked on a distributed task queue library, a public Go API with an official TypeScript SDK, a universal booking platform and a multi-tenant warehouse management system. I have hands-on experience with concurrency in both code and data: race-free slot booking, time interval overlaps, idempotent retries and correct time zone handling. I take features end to end, from the database schema and API to the Next.js UI, and cover them with tests, metrics and alerts. I find bottlenecks with pprof and EXPLAIN ANALYZE."
+ },
+ "content": {
+  "skills": {
+   "title": "Technical Skills",
+   "info": [
+    {
+     "title": "Go",
+     "text": "Go, Goroutines, Channels, Select, Context, Mutex / RWMutex, WaitGroup, Atomic, Generics, Worker Pools, Error Handling, pprof",
+     "list": []
+    },
+    {
+     "title": "Backend & API",
+     "text": "net/http, REST API, gRPC, OpenAPI / Swagger, Middleware, HTTP Client, HTTP Streaming (SSE), Rate Limiting, Timeouts & Retries, Idempotency Keys, JWT, API Keys, RBAC",
+     "list": []
+    },
+    {
+     "title": "Frontend",
+     "text": "TypeScript, JavaScript, React, Next.js (App Router, SSR), TanStack Query, React Hook Form, Zod, Tailwind CSS, SDK Development, npm Publishing",
+     "list": []
+    },
+    {
+     "title": "Databases",
+     "text": "PostgreSQL, Indexes, Transactions, Isolation Levels, Row Locking (SELECT FOR UPDATE), Range Types & Exclusion Constraints, Time Zones (timestamptz), EXPLAIN ANALYZE, Migrations, pgx, Redis, Caching, TTL, ClickHouse",
+     "list": []
+    },
+    {
+     "title": "Message Brokers",
+     "text": "Apache Kafka, Consumer Groups, Offsets, At-Least-Once Delivery, Idempotency, Dead Letter Queue, Task Queues",
+     "list": []
+    },
+    {
+     "title": "Architecture",
+     "text": "Microservices, Clean Architecture, Handler-Service-Repository, Dependency Injection, Event-Driven Architecture, Multi-Tenancy, Graceful Shutdown",
+     "list": []
+    },
+    {
+     "title": "Infrastructure & CI/CD",
+     "text": "Docker, Docker Compose, Kubernetes, Git, GitLab CI, GitHub Actions",
+     "list": []
+    },
+    {
+     "title": "Observability",
+     "text": "Prometheus, Grafana, Structured Logging (slog, zap), Health Checks",
+     "list": []
+    },
+    {
+     "title": "Testing",
+     "text": "Unit Testing, Integration Testing, Table-Driven Tests, testify, gomock, Testcontainers, Race Detector, Benchmarks, Jest / Vitest, React Testing Library",
+     "list": []
+    }
+   ]
+  },
+  "experience": {
+   "title": "Work Experience",
+   "info": [
+    {
+     "title": "[NDA]",
+     "time": { "start": "2025-05", "end": "present" },
+     "list": [
+      "Worked on a multi-tenant warehouse management system (WMS)",
+      "Developed backend services in Go (net/http, gRPC) for inventory, receiving, shipping and stock movements",
+      "Implemented tenant data isolation at the API and database levels",
+      "Built transactional stock accounting in PostgreSQL that stays consistent under concurrent operations",
+      "Developed Kafka producers and idempotent consumers for stock change events, with a DLQ for failed messages",
+      "Used ClickHouse for analytical reports on warehouse operations",
+      "Built operator and admin interfaces in Next.js and React: data tables with filtering, sorting and pagination",
+      "Deployed services to Kubernetes via GitLab CI, set up metrics and alerts in Prometheus and Grafana"
+     ],
+     "achievements": [
+      "Prevented negative stock balances and lost updates when many operators work with the same items concurrently",
+      "Moved heavy analytical reports from PostgreSQL to ClickHouse, removing load from the transactional database"
+     ]
+    },
+    {
+     "title": "EPAM Systems",
+     "time": { "start": "2024-06", "end": "2025-04" },
+     "list": [
+      "Worked on a universal booking platform for services: instructors, consultations, equipment rental and sports classes",
+      "Developed the Go backend: schedules, dynamic availability, bookings, confirmations, cancellations, roles and operation history",
+      "Solved concurrent booking of the same slot using PostgreSQL transactions, row locking and exclusion constraints on time ranges",
+      "Implemented time interval overlap checks for schedules, breaks and existing bookings",
+      "Implemented correct time zone handling: storing time in UTC (timestamptz) and converting by location and user time zone, including DST transitions",
+      "Made booking and cancellation endpoints idempotent to safely handle retries and duplicate requests",
+      "Built the frontend in Next.js and TypeScript: booking calendar, schedule management and a role-based admin panel",
+      "Designed PostgreSQL schemas, wrote migrations and optimized queries with indexes and EXPLAIN ANALYZE",
+      "Wrote unit and integration tests (table-driven, testcontainers), conducted code reviews"
+     ],
+     "achievements": [
+      "Eliminated double bookings by enforcing slot uniqueness at the database level instead of in application code",
+      "Fixed time zone and DST bugs that caused incorrect slot display for users in different regions",
+      "Sped up availability calculation through query optimization and indexing"
+     ]
+    },
+    {
+     "title": "Airun One",
+     "time": { "start": "2022-11", "end": "2024-04" },
+     "list": [
+      "Developed a public REST API service in Go (net/http) with API key authentication, middleware and rate limiting",
+      "Developed and maintained the official JavaScript / TypeScript SDK for the API",
+      "Implemented a typed SDK client with unified error handling, timeouts, retries with exponential backoff and streaming (SSE) support",
+      "Kept the API and SDK contracts in sync, released SDK versions to npm following semver",
+      "Wrote API documentation and SDK usage examples for external developers",
+      "Covered the API with Go tests and the SDK with Jest tests, set up CI in GitHub Actions for tests and releases"
+     ],
+     "achievements": [
+      "Simplified API integration for clients: the SDK replaced hand-written HTTP calls with a typed client",
+      "Reduced the number of integration errors on the client side thanks to strict typing and unified error handling in the SDK"
+     ]
+    },
+    {
+     "title": "MDigital",
+     "time": { "start": "2021-09", "end": "2022-07" },
+     "list": [
+      "Took part in developing a distributed Go library for task queues and messaging between services",
+      "Implemented worker pools and concurrent task processing with goroutines, channels and context cancellation",
+      "Implemented retries with backoff, delayed tasks and moving failed tasks to a dead letter queue",
+      "Implemented graceful shutdown that completes in-progress tasks without losing them",
+      "Wrote unit tests and benchmarks, found data races with the race detector and bottlenecks with pprof"
+     ],
+     "achievements": [
+      "Fixed data races and goroutine leaks found with the race detector and pprof",
+      "Improved task processing throughput by optimizing the worker pool"
+     ]
+    }
+   ]
+  }
+ }
+}

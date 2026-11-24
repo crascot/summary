@@ -1,0 +1,113 @@
+{
+ "pdf": "Yaroslav S. - Middle Go Developer.pdf",
+ "head": {
+  "title": "Yaroslav S. - Middle Go Developer",
+  "description": "Backend developer with  commercial Go experience building microservices and REST/gRPC APIs with PostgreSQL, Redis and Kafka. Experience with high-load order processing, idempotent event handling, query optimization, Kubernetes and observability."
+ },
+ "aboutMe": {
+  "title": "Middle Go Developer",
+  "text": "Backend developer with {{experience}} years of commercial Go development. I build microservices and REST APIs with net/http and work with PostgreSQL, Redis and Kafka. Took part in developing an AI API Gateway: implemented LLM response streaming, Redis-based rate limiting and token accounting via Kafka. I take tasks from design all the way to production: I write tests, set up metrics and alerts, and investigate incidents. I know how to find bottlenecks with pprof and EXPLAIN ANALYZE."
+ },
+ "content": {
+  "skills": {
+   "title": "Technical Skills",
+   "info": [
+    {
+     "title": "Go",
+     "text": "Go, Goroutines, Channels, Select, Context, Mutex / RWMutex, WaitGroup, Atomic, Generics, Worker Pools, Error Handling, pprof",
+     "list": []
+    },
+    {
+     "title": "Backend & API",
+     "text": "net/http, REST API, gRPC, Middleware, HTTP Client, HTTP Streaming (SSE), Rate Limiting, Timeouts & Retries, JWT, API Keys",
+     "list": []
+    },
+    {
+     "title": "Databases",
+     "text": "PostgreSQL, Indexes, Transactions, Isolation Levels, EXPLAIN ANALYZE, Migrations, pgx, Redis, Caching, TTL, ClickHouse",
+     "list": []
+    },
+    {
+     "title": "Message Brokers",
+     "text": "Apache Kafka, Consumer Groups, Offsets, At-Least-Once Delivery, Idempotency, Dead Letter Queue",
+     "list": []
+    },
+    {
+     "title": "Architecture",
+     "text": "Microservices, Clean Architecture, Handler-Service-Repository, Dependency Injection, Event-Driven Architecture, Graceful Shutdown",
+     "list": []
+    },
+    {
+     "title": "Infrastructure & CI/CD",
+     "text": "Docker, Docker Compose, Kubernetes, Git, GitLab CI, GitHub Actions",
+     "list": []
+    },
+    {
+     "title": "Observability",
+     "text": "Prometheus, Grafana, Structured Logging (slog, zap), Health Checks",
+     "list": []
+    },
+    {
+     "title": "Testing",
+     "text": "Unit Testing, Integration Testing, Table-Driven Tests, testify, gomock, Race Detector, Benchmarks",
+     "list": []
+    }
+   ]
+  },
+  "experience": {
+   "title": "Work Experience",
+   "info": [
+    {
+     "title": "Uzum",
+     "time": { "start": "2025-06", "end": "2026-04" },
+     "list": [
+      "Worked on a marketplace system covering the order and seller services",
+      "Developed and maintained order-processing microservices in Go (net/http, gRPC)",
+      "Developed Kafka consumers and producers for order, payment and delivery status events",
+      "Designed schemas and optimized queries in PostgreSQL, wrote migrations",
+      "Cached catalog and product card data in Redis",
+      "Wrote unit and integration tests (table-driven, testcontainers), conducted code reviews",
+      "Deployed services to Kubernetes via GitLab CI, set up metrics and alerts in Prometheus and Grafana"
+     ],
+     "achievements": [
+      "Made order event processing idempotent (deduplication keys, DLQ with retries): duplicates on message redelivery dropped to zero, manual incident investigations were reduced by 70%",
+      "Sped up the seller order history endpoint using EXPLAIN ANALYZE, composite indexes and cursor pagination: p95 dropped from 600 to 90 ms",
+      "Set up graceful shutdown and readiness probes, eliminating 5xx errors during deployments"
+     ]
+    },
+    {
+     "title": "Fabros",
+     "time": { "start": "2023-11", "end": "2025-04" },
+     "list": [
+      "Developed backend services for classified ads and paid promotion services in Go",
+      "Developed REST APIs for web and mobile clients, authorization and logging middleware",
+      "Worked with PostgreSQL and Redis: transactions, indexes, caching of popular listings",
+      "Implemented asynchronous processing of ad events via Kafka (moderation, publication, renewal)",
+      "Covered code with tests, took part in code reviews and task planning",
+      "Containerized services (Docker, multi-stage builds) and maintained CI pipelines"
+     ],
+     "achievements": [
+      "Implemented idempotent payment charging for paid services (idempotency key, transactions): eliminated double charges on client network retries",
+      "Introduced Redis-based rate limiting for the public API, reducing load from bots and scrapers by 40%",
+      "Moved the search results cache to Redis using the cache-aside pattern with TTL: PostgreSQL load decreased by 35%, API response time went from 300 to 70 ms",
+      "Reduced Docker image size from 800 to 30 MB with multi-stage builds, making CI builds 2x faster"
+     ]
+    },
+    {
+     "title": "MDigital",
+     "time": { "start": "2022-09", "end": "2023-07" },
+     "list": [
+      "Developed REST APIs in Go (net/http, chi), implemented error handling and data validation",
+      "Worked with PostgreSQL: queries, JOINs, indexes, migrations (golang-migrate)",
+      "Integrated third-party APIs: payment systems and SMS gateways",
+      "Wrote unit tests, set up the local environment with Docker Compose"
+     ],
+     "achievements": [
+      "Built a notification service (SMS, email) with retries and exponential backoff, raising deliverability to 98%",
+      "Increased test coverage of my module from 30% to 75%"
+     ]
+    }
+   ]
+  }
+ }
+}

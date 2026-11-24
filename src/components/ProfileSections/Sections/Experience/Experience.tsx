@@ -2,9 +2,10 @@ import { v4 as uuidv4 } from "uuid";
 import "../Section.less";
 import { useTranslation } from "react-i18next";
 import { ContentType } from "../../../../types/contentType";
+import { formatPeriod, isFilledPeriod } from "../../../../utils/period";
 
 export const Experience = () => {
- const { t } = useTranslation();
+ const { t, i18n } = useTranslation();
 
  const experienceJson = t("content.experience", {
   returnObjects: true,
@@ -21,7 +22,11 @@ export const Experience = () => {
       <div className="section-content-block" key={uuidv4()}>
        <h3 className="section-content-block-title">{content.title}</h3>
        <h5 className="section-content-block-subtitle">
-        <strong>{content.time}</strong>
+        <strong>
+         {content.time &&
+          isFilledPeriod(content.time) &&
+          formatPeriod(content.time, t("present"), i18n.resolvedLanguage)}
+        </strong>
        </h5>
        <div className="section-content-block-lists">
         <div className="section-content-block-lists-list">

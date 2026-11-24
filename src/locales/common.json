@@ -1,0 +1,17 @@
+{
+ "name": "Yaroslav S.",
+ "university": "KSTU named after Razzakov",
+ "information": {
+  "contacts": "Contacts",
+  "city": "Bishkek, Kyrgyzstan (open to relocation)",
+  "resumeAndDiploma": "Diploma",
+  "languages": "Languages"
+ },
+ "languages": {
+  "title": "Languages",
+  "compact": ["Russian - native", "English - Intermediate"]
+ },
+ "present": "Present",
+ "responsibilities": "Responsibilities",
+ "achievements": "Achievements"
+}
